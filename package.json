@@ -1,6 +1,6 @@
 {
-  "name": "rag",
-  "main": "index.ts",
+  "name": "ds",
+  "main": "ds.ts",
   "devDependencies": {
     "@types/node": "^18",
     "prettier": "^3.4.2",
