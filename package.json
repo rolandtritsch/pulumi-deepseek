@@ -1,0 +1,17 @@
+{
+  "name": "rag",
+  "main": "index.ts",
+  "devDependencies": {
+    "@types/node": "^18",
+    "prettier": "^3.4.2",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@pulumi/aws": "^6.0.0",
+    "@pulumi/awsx": "^2.0.2",
+    "@pulumi/pulumi": "^3.113.0"
+  },
+  "scripts": {
+    "format": "prettier --write 'src/**/*.ts'"
+  }
+}
