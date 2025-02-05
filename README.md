@@ -1,4 +1,4 @@
-# rag
+# Pulumi Stack to run large (Deepseek) LLMs
 
 This configures a stack with an EC2 instance that can host and run LLMs served by ollama.
 
@@ -26,7 +26,7 @@ You can `ssh` into the instance with ...
 ssh -i ~/.ssh/aws.pub ubuntu@$(pulumi stack output eipPublicIp)
 ```
 
-You can then configure `Cline` in `VsCode` to use that `ollama` server to answer questions.
+You can then configure `Cline` in `VsCode` to use that `ollama server` to answer questions.
 
 ## How to make this work?
 
