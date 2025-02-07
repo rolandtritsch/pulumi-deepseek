@@ -48,8 +48,8 @@ const userData = `#!/bin/bash
   fi
 
   # Pull the latest version(s) of the models
-  ollama pull deepseek-r1:8b
-  ollama pull llama3.1:latest
+  /usr/local/bin/ollama pull deepseek-r1:8b
+  /usr/local/bin/ollama pull llama3.1:latest
 
   # Refresh the package list
   sudo apt update && sudo apt upgrade -y
