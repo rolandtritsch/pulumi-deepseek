@@ -144,7 +144,7 @@ const userData = `#!/bin/bash
 // Create an EC2 Instance
 const instance = new aws.ec2.Instance('ds-instance', {
   ami: 'ami-0da39a8bb51a828e3',
-  instanceType: 'g5.4xlarge',
+  instanceType: 'm5.2xlarge',
   keyName: keyPair.keyName,
   subnetId: subnet.id,
   tags: {
